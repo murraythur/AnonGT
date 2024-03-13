@@ -2,25 +2,27 @@
 # By @dartorarthur
 ___
 
-> ### script to redirect all traffic through tor network including
-> ### dns queries for anonymizing entire system
-> ### killing dangerous applications
-> ### clear configs & logs
-> ### firefox browser anonymization
-> ### changing mac address
+> ### script para redirecionar todo o tráfego através da rede Tor, incluindo:
+> ### consulta dns para anonimato do app
+> ### derrubar aplicativos perigosos
+> ### limpar configurações e registros
+> ### anonimato do navegador firefox
+> ### alteração do endereço mac
 
-###### Please always check for updates
+###### Mais atualizações futuras
 
 ___
 
-[<img src="https://i3.ytimg.com/vi/MBKklMeE_uE/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=MBKklMeE_uE&t "AnonGT")
+## Assista aqui:
+
+[<img src="https://i3.ytimg.com/vi/MBKklMeE_uE/maxresdefault.jpg" width="100%">
 
 ## AnonGT Install
 
 ___
 > git clone https://github.com/murraythur/AnonGT && cd AnonGT && sudo bash install.sh && exit;
 
-## AnonGT Commands
+## comandos AnonGT
 
 ___
 
@@ -28,44 +30,44 @@ ___
 
 > ### sudo anongt
 
-### Anonymous Mode Start
+### Início ao modo anônimo
 
 > ### sudo anongt start
 
-### Anonymous Mode Stop
+### Parada ao modo anônimo
 
 > ### sudo anongt stop
 
-### Anonymous Mode Change Tor IP
+### Alteração de modo anônimo com Tor IP
 
 > ### sudo anongt chngid
 
-### Watch Tor Traffic
+### status de tráfego
 
 > ### sudo anongt status
 
-### Get Your Public Information
+### informação publica
 
 > ### sudo anongt myinfo
 
-### Change Mac Address For All Interfaces
+### Alterar o endereço Mac para todas as interfaces
 
 > ### sudo anongt chngmac
 
-### Revert Mac Address For All Interfaces
+### Reverter  o endereço Mac para todas as interfaces
 
 > ### sudo anongt rvmac
 
-### Clear Configs & Logs
+### Limpar configurações e registros
 
 > ### sudo anongt wipe
 
-## Tested On
+## Testado em : 
 
 ___ 
-> ### Kali Linux 2024.3
+> ### Kali Linux 2024.3 & Slackware v6.11
 
-## Uninstall
+## Desinstalação
 
 ___
 > ### sudo rm -r /usr/share/anongt /usr/bin/anongt /var/lib/anongt;
